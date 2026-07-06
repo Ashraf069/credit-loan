@@ -8,7 +8,26 @@ This project automates credit card approval decisions using machine learning. It
 - Flask app provides a user-friendly interface for single application predictions.
 - Includes an IBM Watson Machine Learning deployment utility.
 - Synthetic dataset generation simulates realistic applicant profiles.
+- 
+## Prerequisites
 
+| Prerequisite                | Official Link                                                                                                              |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Python 3.10+                | [https://www.python.org/downloads/](https://www.python.org/downloads/)                                                     |
+| Flask                       | [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)                                                   |
+| Jupyter Notebook            | [https://jupyter.org/](https://jupyter.org/)                                                                               |
+| Anaconda (optional)         | [https://www.anaconda.com/download](https://www.anaconda.com/download)                                                     |
+| NumPy                       | [https://numpy.org/install/](https://numpy.org/install/)                                                                   |
+| Pandas                      | [https://pandas.pydata.org/docs/getting_started/install.html](https://pandas.pydata.org/docs/getting_started/install.html) |
+| Scikit-learn                | [https://scikit-learn.org/stable/install.html](https://scikit-learn.org/stable/install.html)                               |
+| XGBoost                     | [https://xgboost.readthedocs.io/en/stable/install.html](https://xgboost.readthedocs.io/en/stable/install.html)             |
+| Matplotlib                  | [https://matplotlib.org/stable/users/installing.html](https://matplotlib.org/stable/users/installing.html)                 |
+| IBM Cloud                   | [https://cloud.ibm.com/](https://cloud.ibm.com/)                                                                           |
+| IBM Watson Machine Learning | [https://www.ibm.com/products/watson-machine-learning](https://www.ibm.com/products/watson-machine-learning)               |
+| Git                         | [https://git-scm.com/downloads](https://git-scm.com/downloads)                                                             |
+| Visual Studio Code          | [https://code.visualstudio.com/](https://code.visualstudio.com/)                                                           |
+
+- 
 ## Setup
 1. Create and activate a Python virtual environment.
 
@@ -69,3 +88,4 @@ python wml_deploy.py --model model_pipeline.joblib --name "credit-card-approval"
 ## Notes
 - The application uses synthetic data when no real dataset is provided.
 - XGBoost is included as a candidate model but falls back to a scikit-learn gradient boosting classifier if unavailable.
+- 
