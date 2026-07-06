@@ -8,6 +8,9 @@ This project automates credit card approval decisions using machine learning. It
 - Flask app provides a user-friendly interface for single application predictions.
 - Includes an IBM Watson Machine Learning deployment utility.
 - Synthetic dataset generation simulates realistic applicant profiles.
+
+- ## Entity relation ship diagram
+- ![image alt]()
 - 
 ## Prerequisites
 
