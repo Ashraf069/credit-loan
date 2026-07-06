@@ -25,7 +25,10 @@ This project automates credit card approval decisions using machine learning. It
 | IBM Cloud                   | [https://cloud.ibm.com/](https://cloud.ibm.com/)                                                                           |
 | IBM Watson Machine Learning | [https://www.ibm.com/products/watson-machine-learning](https://www.ibm.com/products/watson-machine-learning)               |
 | Git                         | [https://git-scm.com/downloads](https://git-scm.com/downloads)                                                             |
-| Visual Studio Code          | [https://code.visualstudio.com/](https://code.visualstudio.com/)                                                           |
+| Visual Studio Code          | [https://code.visualstudio.com/](https://code.visualstudio.com/)    
+
+## project flow
+<!-- Uploading "work flow.png"... -->|
 
 - 
 ## Setup
