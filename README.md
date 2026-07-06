@@ -10,7 +10,7 @@ This project automates credit card approval decisions using machine learning. It
 - Synthetic dataset generation simulates realistic applicant profiles.
 
 - ## Entity relation ship diagram
-- ![image alt]()
+- ![image alt](https://github.com/Ashraf069/credit-loan/blob/eb36367b1c5e47af9e7b1936ed30c1e6e74d680d/Entity%20Relationship%20Diagram/Credit%20Card%20Approval%20Prediction.png)
 - 
 ## Prerequisites
 
