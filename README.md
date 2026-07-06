@@ -28,7 +28,7 @@ This project automates credit card approval decisions using machine learning. It
 | Visual Studio Code          | [https://code.visualstudio.com/](https://code.visualstudio.com/)    
 
 ## project flow
-<!-- Uploading "work flow.png"... -->|
+
 
 - 
 ## Setup
