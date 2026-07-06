@@ -33,6 +33,69 @@ This project automates credit card approval decisions using machine learning. It
 ## project flow
 ![image alt](https://github.com/Ashraf069/credit-loan/blob/374f261b39ceb9b27242b1d1da9e19e76b976b6f/work%20flow.png)
 
+## data  collection
+
+For Step 1: Data Collection, you should provide the dataset source used for training the Credit Card Approval Prediction model. The most commonly used dataset for this project is the Credit Card Approval Prediction dataset on Kaggle.
+
+Dataset Download
+
+Primary Dataset (Recommended)
+
+Credit Card Approval Prediction (Kaggle):
+https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+
+This dataset includes:
+
+Applicant demographic information
+Income type
+Employment status
+Family status
+Housing type
+Education level
+Occupation
+Credit history
+Payment status
+Target label (derived through preprocessing)
+Files Included
+
+After downloading, you'll typically find:
+
+application_record.csv – Applicant demographic and financial information
+credit_record.csv – Credit history and payment records.
+
+## - data collection workflow
+
+Data Collection
+      │
+      ▼
+Download Dataset from Kaggle
+      │
+      ▼
+application_record.csv
+credit_record.csv
+      │
+      ▼
+Merge the datasets using ID
+      │
+      ▼
+Clean Missing Values
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Create Approval/Reject Labels
+      │
+      ▼
+Train Machine Learning Models
+      │
+      ▼
+Deploy Best Model using Flask
+
+Dataset Description :
+
+The project uses the Credit Card Approval Prediction dataset obtained from Kaggle. It consists of two CSV files: application_record.csv, which contains demographic and financial information of applicants, and credit_record.csv, which stores applicants' historical credit payment records. These datasets are merged using the applicant ID, preprocessed to remove inconsistencies, and transformed through feature engineering to create binary approval labels. The processed dataset is then used to train and evaluate multiple machine learning models for credit card approval prediction.
+
 - 
 ## Setup
 1. Create and activate a Python virtual environment.
