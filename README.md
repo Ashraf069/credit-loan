@@ -243,6 +243,26 @@ This analysis provides a clear understanding of the dataset, supports effective 
 ![image alt](https://github.com/user-attachments/assets/01ae144a-7f42-4708-9d50-c1b4e84e8ece)
 ## 3.Data preprocessing
 ## 4.module building
+
+## Logistic Regression
+
+Logistic Regression is used as a binary classification algorithm to predict whether a credit card application is **Approved** or **Rejected** based on applicant information.
+
+
+### Key Steps
+
+* Initialize the `LogisticRegression()` model.
+* Train the model using the `fit()` method.
+* Generate predictions using the `predict()` method.
+* Compare predicted values with actual test data.
+
+### Model Evaluation
+
+* **Confusion Matrix** – Evaluates correct and incorrect predictions.
+* **Classification Report** – Measures **Precision**, **Recall**, **F1-Score**, and **Accuracy**.
+![image alt]()
+Logistic Regression provides a simple, fast, and interpretable baseline model for the Credit Card Approval Prediction system, making it well-suited for binary classification tasks.
+
 ## 5.Application building
 
 ## Building HTML pages
