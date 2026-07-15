@@ -261,7 +261,50 @@ Logistic Regression is used as a binary classification algorithm to predict whet
 * **Confusion Matrix** – Evaluates correct and incorrect predictions.
 * **Classification Report** – Measures **Precision**, **Recall**, **F1-Score**, and **Accuracy**.
 ![image alt](https://github.com/user-attachments/assets/c15c0d52-2ce3-4051-a744-ae6a45f95f77)
+
 Logistic Regression provides a simple, fast, and interpretable baseline model for the Credit Card Approval Prediction system, making it well-suited for binary classification tasks.
+Here's a concise, GitHub-friendly version:
+
+## Random Forest
+
+Random Forest is a supervised machine learning algorithm used to classify credit card applications as **Approved** or **Rejected**. It builds multiple decision trees and combines their predictions using **majority voting**, resulting in improved accuracy and reduced overfitting.
+
+### Key Steps
+
+* Initialize the `RandomForestClassifier()` model.
+* Train the model using the `fit()` method.
+* Generate predictions using the `predict()` method.
+* Evaluate the model using test data.
+
+### Model Evaluation
+
+* **Confusion Matrix** – Measures correct and incorrect predictions.
+* **Classification Report** – Provides **Precision**, **Recall**, **F1-Score**, and **Accuracy**.
+![image alt](https://github.com/user-attachments/assets/b77048c4-a73b-443b-9cba-f1dc47b941e2)
+
+Random Forest delivers high prediction accuracy, handles large datasets efficiently, and is well-suited for credit card approval classification tasks.
+Here's a concise, GitHub-friendly version:
+
+## Decision Tree
+
+Decision Tree is a supervised machine learning algorithm used to classify credit card applications as **Approved** or **Rejected**. It makes predictions by creating a tree-like structure of decision rules based on applicant features.
+
+### Key Steps
+
+* Initialize the `DecisionTreeClassifier()` model.
+* Train the model using the `fit()` method.
+* Generate predictions using the `predict()` method.
+* Evaluate the model using test data.
+
+### Model Evaluation
+
+* **Confusion Matrix** – Measures correct and incorrect predictions.
+* **Classification Report** – Provides **Precision**, **Recall**, **F1-Score**, and **Accuracy**.
+
+![image alt]()
+
+Decision Tree is simple, interpretable, and effective for handling both numerical and categorical data, making it a suitable model for credit card approval prediction.
+
 
 ## 5.Application building
 
