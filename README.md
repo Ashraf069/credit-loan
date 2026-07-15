@@ -116,6 +116,75 @@ If you want to deploy the model to IBM Watson Machine Learning, install the opti
 ```powershell
 pip install -r requirements-ibm.txt
 ```
+## Visualising and Analising the Data
+
+##  1.Importing The Libraries
+
+Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
+
+The project utilizes the following libraries:
+
+Pandas – For data loading, cleaning, transformation, and analysis.
+NumPy – For numerical computations and array operations.
+Matplotlib – For creating charts and visualizing data patterns.
+Seaborn – For advanced statistical data visualization.
+Scikit-learn – For data preprocessing, model training, prediction, and evaluation.
+Joblib/Pickle – For saving and loading trained machine learning models.
+Warnings – For handling and suppressing unnecessary warning messages.
+
+These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
+If you want a description for the **"Importing Required Libraries"** step in your GitHub project documentation, you can use something like this:
+
+### Importing Required Libraries
+
+Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
+
+The project utilizes the following libraries:
+
+* **Pandas** – For data loading, cleaning, transformation, and analysis.
+* **NumPy** – For numerical computations and array operations.
+* **Matplotlib** – For creating charts and visualizing data patterns.
+* **Seaborn** – For advanced statistical data visualization.
+* **Scikit-learn** – For data preprocessing, model training, prediction, and evaluation.
+* **Joblib/Pickle** – For saving and loading trained machine learning models.
+* **Warnings** – For handling and suppressing unnecessary warning messages.
+
+These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
+
+### Sample Code
+
+```python
+# Data Manipulation
+import pandas as pd
+import numpy as np
+
+# Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Data Preprocessing
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+
+# Machine Learning Models
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+
+# Model Evaluation
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+# Model Saving
+import joblib
+
+# Warning Handling
+import warnings
+warnings.filterwarnings('ignore')
+```
+
+### 
+
+> The project begins by importing essential Python libraries required for data analysis, preprocessing, visualization, machine learning model development, and evaluation. These libraries enable efficient handling of the credit card approval dataset, support the training of predictive models, and facilitate performance assessment to deliver accurate approval predictions.
+
 
 ## Training
 Generate training data, train the candidate models, and save the best pipeline.
