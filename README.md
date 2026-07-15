@@ -287,7 +287,7 @@ The server-side application is developed using **Flask** to connect the frontend
 
 This server-side implementation enables real-time credit card approval prediction through a simple, fast, and user-friendly web application.
 
-![image alt]()
+![image alt](https://github.com/user-attachments/assets/e9d81938-f85d-41d6-8b6c-943c1333285d)
 
 ### Sample Code
 
