@@ -289,81 +289,32 @@ This server-side implementation enables real-time credit card approval predictio
 
 ![image alt](https://github.com/user-attachments/assets/e9d81938-f85d-41d6-8b6c-943c1333285d)
 
-### Sample Code
+### Run the application
 
-```python
-# Data Manipulation
-import pandas as pd
-import numpy as np
+## Running the Flask Application
 
-# Data Visualization
-import matplotlib.pyplot as plt
-import seaborn as sns
+The Flask application is executed locally to test the Credit Card Approval Prediction system and verify the integration between the frontend, backend, and trained machine learning model.
 
-# Data Preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, StandardScaler
+### Steps to Run
 
-# Machine Learning Models
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
+1. Open **Anaconda Prompt** or **Command Prompt**.
+2. Navigate to the project directory containing `app.py`.
+3. Start the Flask server using:
 
-# Model Evaluation
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+   ```bash
+   python app.py
+   ```
+4. Open the generated local URL (e.g., `http://127.0.0.1:5000/`) in a web browser.
 
-# Model Saving
-import joblib
+### Result
+![image alt]()
+* Access the application through the web interface.
+* Enter applicant details in the prediction form.
+* Submit the form to generate a prediction.
+* View the final credit card approval result (**Approved** or **Rejected**) on the result page.
 
-# Warning Handling
-import warnings
-warnings.filterwarnings('ignore')
-```
+This step confirms that the Flask application, trained model, and frontend interface are successfully integrated and functioning correctly.
 
-### 
-
-> The project begins by importing essential Python libraries required for data analysis, preprocessing, visualization, machine learning model development, and evaluation. These libraries enable efficient handling of the credit card approval dataset, support the training of predictive models, and facilitate performance assessment to deliver accurate approval predictions.
-
-
-## Training
-Generate training data, train the candidate models, and save the best pipeline.
-
-```powershell
-python train_model.py
-```
-
-This creates `data/sample_credit_applications.csv` and `model_pipeline.joblib`.
-
-## Running the Flask App
-
-```powershell
-python app.py
-```
-
-Open `http://127.0.0.1:5000` in your browser.
-
-## IBM Watson Machine Learning Deployment
-
-Update `wml_deploy.py` with your IBM Watson credentials or set environment variables:
-- `WML_API_KEY`
-- `WML_URL`
-- `WML_SPACE_ID`
-
-Run:
-
-```powershell
-python wml_deploy.py --model model_pipeline.joblib --name "credit-card-approval"
-```
-
-## Project Structure
-- `train_model.py`: Training pipeline and model selection.
-- `model_utils.py`: Data generation, preprocessing, and model utilities.
-- `app.py`: Flask application for predictions.
-- `wml_deploy.py`: IBM Watson Machine Learning deployment helper.
-- `templates/index.html`: Web UI template.
-
-## Notes
-- The application uses synthetic data when no real dataset is provided.
-- XGBoost is included as a candidate model but falls back to a scikit-learn gradient boosting classifier if unavailable.
 - 
 ## Conclusion
 
