@@ -118,7 +118,7 @@ pip install -r requirements-ibm.txt
 ```
 ## Visualising and Analising the Data
 
-##  1.Importing The Libraries
+## 1.Importing The Libraries
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
 
@@ -135,9 +135,10 @@ Warnings – For handling and suppressing unnecessary warning messages.
 These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
 If you want a description for the **"Importing Required Libraries"** step in your GitHub project documentation, you can use something like this:
 
-### Importing Required Libraries
+# Importing Required Libraries
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
+![image alt]()
 
 The project utilizes the following libraries:
 
