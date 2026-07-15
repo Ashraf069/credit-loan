@@ -149,7 +149,7 @@ The project utilizes the following libraries:
 * **Scikit-learn** – For data preprocessing, model training, prediction, and evaluation.
 * **Joblib/Pickle** – For saving and loading trained machine learning models.
 * **Warnings** – For handling and suppressing unnecessary warning messages.
-
+![image alt](https://github.com/user-attachments/assets/99617e6a-a955-407a-a0ea-fa534ae727c2)
 These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
 ![image alt](https://github.com/user-attachments/assets/01ae144a-7f42-4708-9d50-c1b4e84e8ece)
 ### Sample Code
