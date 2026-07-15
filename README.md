@@ -367,7 +367,7 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 df['Column_Name'] = le.fit_transform(df['Column_Name'])
 ```
-![image alt]()
+![image alt](https://github.com/user-attachments/assets/09058a88-d175-40c5-9c8e-4b2b0dacf0a8)
 Label encoding enables machine learning models to process categorical data efficiently and improves the overall performance of the Credit Card Approval Prediction model.
 
 ## 4.module building
