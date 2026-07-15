@@ -307,7 +307,7 @@ The Flask application is executed locally to test the Credit Card Approval Predi
 4. Open the generated local URL (e.g., `http://127.0.0.1:5000/`) in a web browser.
 
 ### Result
-![image alt]()
+![image alt](https://github.com/user-attachments/assets/0173022a-ec29-4dba-bcec-f589a150c318)
 * Access the application through the web interface.
 * Enter applicant details in the prediction form.
 * Submit the form to generate a prediction.
