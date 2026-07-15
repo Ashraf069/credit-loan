@@ -33,7 +33,7 @@ This project automates credit card approval decisions using machine learning. It
 ## project flow
 ![image alt](https://github.com/Ashraf069/credit-loan/blob/374f261b39ceb9b27242b1d1da9e19e76b976b6f/work%20flow.png)
 
-## data  collection
+## 1.data  collection
 
 For Step 1: Data Collection, you should provide the dataset source used for training the Credit Card Approval Prediction model. The most commonly used dataset for this project is the Credit Card Approval Prediction dataset on Kaggle.
 
@@ -116,9 +116,9 @@ If you want to deploy the model to IBM Watson Machine Learning, install the opti
 ```powershell
 pip install -r requirements-ibm.txt
 ```
-## Visualising and Analising the Data
+## 2.Visualising and Analising the Data
 
-## 1.Importing The Libraries
+## Importing The Libraries
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
 
@@ -139,7 +139,7 @@ If you want a description for the **"Importing Required Libraries"** step in you
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
 ![image alt](https://github.com/user-attachments/assets/b77048c4-a73b-443b-9cba-f1dc47b941e2)
-## 2.read the dataset
+## read the dataset
 
 The project utilizes the following libraries:
 
@@ -152,8 +152,7 @@ The project utilizes the following libraries:
 * **Warnings** – For handling and suppressing unnecessary warning messages.
 ![image alt](https://github.com/user-attachments/assets/99617e6a-a955-407a-a0ea-fa534ae727c2)
 These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
-![image alt](https://github.com/user-attachments/assets/01ae144a-7f42-4708-9d50-c1b4e84e8ece)
-## 3.Univariate Analysis
+## Univariate Analysis
 
 Univariate Analysis examines each feature in the dataset independently to understand its distribution and characteristics. In this project, it is used to analyze applicant attributes such as Occupation Type, Income, Education Level, Family Status, and Age.
 
@@ -190,7 +189,7 @@ plt.show()
 
 This analysis provides a better understanding of the dataset, supports effective preprocessing and feature selection, and improves the performance of the Credit Card Approval Prediction model.
 
-### 3.Multivariate Analysis
+### Multivariate Analysis
 
 Multivariate Analysis is used to examine the relationships between multiple features in the dataset simultaneously. In the **Credit Card Approval Prediction** project, it helps identify how applicant attributes such as **Age, Annual Income, Employment Status, Education Level, and Family Members** interact with each other.
 
@@ -224,7 +223,7 @@ plt.show()
 ```
 For GitHub, keep it short and focused. Here's a professional version:
 
-### 4.Descriptive Analysis
+### Descriptive Analysis
 
 Descriptive Analysis is used to summarize the statistical characteristics of the dataset and gain insights into numerical features before model training.
 
@@ -240,6 +239,11 @@ Descriptive Analysis is used to summarize the statistical characteristics of the
 * `describe()` – Generates statistical summaries, including count, mean, standard deviation, minimum, maximum, and quartile values.
 
 This analysis provides a clear understanding of the dataset, supports effective data preprocessing, and improves feature selection for the Credit Card Approval Prediction model.
+
+![image alt](https://github.com/user-attachments/assets/01ae144a-7f42-4708-9d50-c1b4e84e8ece)
+## 3.Data preprocessing
+## 4.module building
+## 5.Application building
 
 
 
