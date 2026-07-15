@@ -139,6 +139,7 @@ If you want a description for the **"Importing Required Libraries"** step in you
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
 ![image alt](https://github.com/user-attachments/assets/b77048c4-a73b-443b-9cba-f1dc47b941e2)
+## 2.read the dataset
 
 The project utilizes the following libraries:
 
@@ -152,6 +153,96 @@ The project utilizes the following libraries:
 ![image alt](https://github.com/user-attachments/assets/99617e6a-a955-407a-a0ea-fa534ae727c2)
 These libraries collectively support the complete workflow, from data preprocessing and exploratory data analysis to model building, evaluation, and deployment, ensuring accurate and efficient credit card approval predictions.
 ![image alt](https://github.com/user-attachments/assets/01ae144a-7f42-4708-9d50-c1b4e84e8ece)
+## 3.Univariate Analysis
+
+Univariate Analysis examines each feature in the dataset independently to understand its distribution and characteristics. In this project, it is used to analyze applicant attributes such as Occupation Type, Income, Education Level, Family Status, and Age.
+
+Key tasks performed include:
+
+Analyzing the frequency and distribution of individual features.
+Detecting missing values, outliers, and class imbalance.
+Summarizing numerical features using statistical measures.
+Visualizing categorical and numerical data using Matplotlib and Seaborn.
+
+Common functions used:
+
+value_counts() – Counts the frequency of categorical values.
+describe() – Generates summary statistics for numerical features.
+sns.countplot() – Visualizes categorical feature distributions.
+sns.histplot() and sns.boxplot() – Display numerical feature distributions and outliers.
+
+## source code
+# Frequency of occupation types
+app['OCCUPATION_TYPE'].value_counts()
+
+# Count plot for occupation type
+sns.countplot(x='OCCUPATION_TYPE', data=app)
+plt.xticks(rotation=90)
+plt.show()
+
+# Histogram for annual income
+sns.histplot(app['AMT_INCOME_TOTAL'], bins=30, kde=True)
+plt.show()
+ 
+# Box plot for annual income
+sns.boxplot(x=app['AMT_INCOME_TOTAL'])
+plt.show()
+
+This analysis provides a better understanding of the dataset, supports effective preprocessing and feature selection, and improves the performance of the Credit Card Approval Prediction model.
+
+### 3.Multivariate Analysis
+
+Multivariate Analysis is used to examine the relationships between multiple features in the dataset simultaneously. In the **Credit Card Approval Prediction** project, it helps identify how applicant attributes such as **Age, Annual Income, Employment Status, Education Level, and Family Members** interact with each other.
+
+**Key tasks performed:**
+
+* Analyze relationships between multiple features.
+* Identify feature correlations and dependencies.
+* Detect redundant features and hidden patterns.
+* Support feature selection for model training.
+
+**Common functions used:**
+
+* `corr()` – Calculates the correlation matrix.
+* `sns.heatmap()` – Visualizes correlations between numerical features.
+* `pairplot()` – Displays pairwise relationships between variables.
+
+Multivariate analysis improves data understanding, enhances feature selection, and contributes to better machine learning model performance.
+For GitHub, you don't need to explain every value in the heatmap. A short professional description is enough.
+
+### Multivariate Analysis
+
+The correlation heatmap below shows the relationships between numerical features in the Credit Card Approval dataset. It helps identify positive and negative correlations, detect feature dependencies, and understand how variables interact with each other before model training. Most features have weak correlations, while **`DAYS_BIRTH`** and **`DAYS_EMPLOYED`** show a relatively strong negative correlation, indicating an inverse relationship between age and employment days. This analysis supports feature selection, reduces redundancy, and improves machine learning model performance.
+
+**Code Used:**
+
+```python
+plt.figure(figsize=(8,6))
+sns.heatmap(app.corr(), annot=True, cmap='coolwarm')
+plt.title("Correlation Heatmap")
+plt.show()
+```
+For GitHub, keep it short and focused. Here's a professional version:
+
+### 4.Descriptive Analysis
+
+Descriptive Analysis is used to summarize the statistical characteristics of the dataset and gain insights into numerical features before model training.
+
+**Key tasks performed:**
+
+* Summarized numerical features using statistical measures.
+* Analyzed data distribution and variability.
+* Identified minimum, maximum, mean, median, and standard deviation.
+* Detected potential outliers and inconsistencies.
+
+**Common function used:**
+
+* `describe()` – Generates statistical summaries, including count, mean, standard deviation, minimum, maximum, and quartile values.
+
+This analysis provides a clear understanding of the dataset, supports effective data preprocessing, and improves feature selection for the Credit Card Approval Prediction model.
+
+
+
 ### Sample Code
 
 ```python
