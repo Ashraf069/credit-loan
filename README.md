@@ -260,7 +260,7 @@ Logistic Regression is used as a binary classification algorithm to predict whet
 
 * **Confusion Matrix** – Evaluates correct and incorrect predictions.
 * **Classification Report** – Measures **Precision**, **Recall**, **F1-Score**, and **Accuracy**.
-![image alt]()
+![image alt](https://github.com/user-attachments/assets/c15c0d52-2ce3-4051-a744-ae6a45f95f77)
 Logistic Regression provides a simple, fast, and interpretable baseline model for the Credit Card Approval Prediction system, making it well-suited for binary classification tasks.
 
 ## 5.Application building
