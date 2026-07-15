@@ -138,7 +138,7 @@ If you want a description for the **"Importing Required Libraries"** step in you
 # Importing Required Libraries
 
 Importing the required libraries is the initial step in the Credit Card Approval Prediction project. These libraries provide essential tools for data manipulation, visualization, preprocessing, machine learning model development, and performance evaluation. Using well-established Python libraries ensures efficient implementation, improves code readability, and accelerates the development process.
-![image alt](<img width="718" height="697" alt="Image" src="https://github.com/user-attachments/assets/b77048c4-a73b-443b-9cba-f1dc47b941e2" />)
+![image alt](https://github.com/user-attachments/assets/b77048c4-a73b-443b-9cba-f1dc47b941e2)
 
 The project utilizes the following libraries:
 
