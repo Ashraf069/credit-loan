@@ -245,7 +245,49 @@ This analysis provides a clear understanding of the dataset, supports effective 
 ## 4.module building
 ## 5.Application building
 
+## Building HTML pages
 
+## Flask Web Application
+
+The Credit Card Approval Prediction System is deployed using **Flask**, providing a simple and interactive web interface for real-time predictions. The application connects the frontend with the trained machine learning model to process user inputs and generate prediction results.
+
+### Project Files
+
+* **`home.html`** – Landing page with project overview and navigation.
+* **`index.html`** – Form for entering applicant details.
+* **`result.html`** – Displays the credit card approval prediction.
+* **`app.py`** – Flask backend that manages routing, loads the trained model, processes user input, and generates predictions.
+
+### Features
+
+* Interactive web interface built with HTML and Flask.
+* Loads the trained machine learning model using **Pickle/Joblib**.
+* Accepts applicant details through a web form.
+* Performs real -time credit card approval prediction.
+* Displays the prediction result (Approved/Rejected) on the result page.
+
+This Flask application enables users to interact with the machine learning model through a simple, responsive, and user-friendly interface.
+
+![image alt](https://github.com/user-attachments/assets/088f7481-2447-43b0-83cf-b654515fcc5a)
+
+## Building the python script
+For GitHub, you can use this concise version:
+
+## Building the Server-Side Script Using Flask and Pickle
+
+The server-side application is developed using **Flask** to connect the frontend with the trained machine learning model. The saved model is loaded using **Pickle**, allowing predictions to be generated without retraining.
+
+### Key Features
+
+* Loads the trained model using **Pickle**.
+* Handles routing between web pages using **Flask**.
+* Collects user input through `request.form`.
+* Processes input data and generates predictions using the model's `predict()` method.
+* Displays the prediction result on the **result.html** page.
+
+This server-side implementation enables real-time credit card approval prediction through a simple, fast, and user-friendly web application.
+
+![image alt]()
 
 ### Sample Code
 
